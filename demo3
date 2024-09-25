@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="display()">submit</button>
+
+    <h1 id="demo">welcome to cybrom !!!</h1>
+
+    <script>
+        function display()
+        {
+
+            // console.alert("i am sandeep ");
+             document.getElementById("demo").innerHTML="i am abhhishek ";
+        }
+    </script>
+</body>
+</html>
